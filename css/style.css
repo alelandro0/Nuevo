@@ -280,12 +280,85 @@ span{
 .roq{
     color: #e6379d;
 }
+@media (min-width: 1200px) {
+  .superior {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .izquierdo {
+    width: 50%;
+    background-position: right;
+    height: auto;
+  }
+  .derecho {
+    width: 50%;
+    height: auto;
+  }
+  h1 {
+    font-size: 70px;
+    width: 50%;
+    text-align: left;
+    margin-top: 0;
+  }
+  .padreM {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+  .izMedio {
+    width: 50%;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  .dereMedio {
+    width: 50%;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  .figura {
+    width: 100%;
+    height: auto;
+  }
+  h2 {
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 0;
+  }
+  h3 {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .inferior {
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 150px;
+    
+  }
+  .cuadro {
+    width: 30%;
+  }
+  h5 {
+    font-size: 50px;
+  }
+  .ptres {
+    font-size: 18px;
+  }
+}
 
 
     @media (max-width: 998px) {
         .superior {
           flex-direction: column;
           align-items: center;
+        }
+        .container{
+          margin-bottom: 30px;
+        }
+        .celu{
+          margin-top: 20px;
+          margin-bottom: 20px;
         }
         .izquierdo {
           width: 100%;
@@ -337,6 +410,12 @@ span{
         }
         .cuadro {
           width: 70%;
+          font-size: 20px;
+        }
+        .ptres{
+          font-size: 20px;
+          width: 60%;
+          height: auto;
         }
         h5 {
           font-size: 30px;
@@ -350,21 +429,20 @@ span{
           flex-direction: column;
           align-items: center;
         }
+        .container{
+          margin-bottom: 30px;
+        }
         .izquierdo {
           width: 100%;
           background-position: center;
           height: auto;
+
         }
         .derecho {
           width: 100%;
           height: auto;
         }
-        h1 {
-          font-size: 40px;
-          width: 80%;
-          text-align: center;
-          margin-top: 50px;
-        }
+   
         .padreM {
           flex-direction: column;
           align-items: center;
@@ -407,77 +485,18 @@ span{
         .ptres {
           font-size: 16px;
         }
-      }
-      @media (min-width: 1200px) {
-        .superior {
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-        }
-        .izquierdo {
-          width: 50%;
-          background-position: right;
-          height: auto;
-        }
-        .derecho {
-          width: 50%;
-          height: auto;
-        }
-        h1 {
-          font-size: 70px;
-          width: 50%;
-          text-align: left;
-          margin-top: 0;
-        }
-        .padreM {
-          flex-direction: row;
-          align-items: flex-start;
-          justify-content: space-between;
-          margin-top: 100px;
-        }
-        .izMedio {
-          width: 50%;
-          justify-content: center;
-          margin-bottom: 0;
-        }
-        .dereMedio {
-          width: 50%;
-          align-items: flex-start;
-          gap: 40px;
-        }
-        .figura {
-          width: 100%;
-          height: auto;
-        }
-        h2 {
-          font-size: 40px;
-          margin-left: 50px;
-          margin-top: 0;
-        }
-        h3 {
-          font-size: 25px;
+        .celu{
           margin-top: 20px;
-        }
-        .inferior {
-          flex-direction: row;
-          gap: 40px;
-          margin-top: 150px;
-          
-        }
-        .cuadro {
-          width: 30%;
-        }
-        h5 {
-          font-size: 50px;
-        }
-        .ptres {
-          font-size: 18px;
+          margin-bottom: 20px;
         }
       }
+      
       @media (max-width: 480px) {
         .superior {
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        height: 100%;
         }
         .izquierdo {
         width: 100%;
@@ -539,6 +558,12 @@ span{
         }
         .ptres {
         font-size: 14px;
+        }
+        .rosa{
+          width: 100%;
+        }
+        .text{
+          width: 100%;
         }
         }
       
